@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+}
+
+.header{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: cornflowerblue;
+    display: flex;
+    gap: 30px;
+}
+
+.header a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+#btn{
+   margin-left: 900px;
+}
+
+#mainBody{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+#boxAppear{
+    border: 1px solid black;
+    width : 600px;
+    height : 500px;
+    margin-top: 150px;
+}
