@@ -2,34 +2,28 @@ body{
     margin: 0%;
 }
 
-.header{
-    border: 1px solid black;
-    padding: 10px;
-    background-color: cornflowerblue;
-    display: flex;
-    gap: 30px;
-}
-
-.header a{
-    text-decoration: none;
-    color: cornsilk;
-}
-
 #btn{
-   margin-left: 900px;
+    margin-top: 250px;
+    margin-left: 600px;
 }
 
-#container{
-    display: flex;
-    justify-content: center;
-    font-size: 45px;
+#popUp{
+    border: 2px solid black;
+    background-color: brown;
+    width: 500px;
+    height: 120px;
+    margin-top: 200px;
+    margin-left: 400px;
+    text-align: center;
 }
 
-#boxAppear{
+
+#innerBox{
     border: 1px solid black;
-    width : 600px;
-    height : 500px;
-    margin-top: -20px;
-    background-color: whitesmoke;
-    text-align: center;    
+    background-color: yellow;
+    width: 200px;
+    height: 40px;
+   text-align: center;
+   margin-top: 30px;
+   margin-left: 150px;
 }
