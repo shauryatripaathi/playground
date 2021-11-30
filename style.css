@@ -5,10 +5,11 @@ body{
 #btn{
     margin-top: 250px;
     margin-left: 600px;
+    width: 100px;
 }
 
 #popUp{
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: brown;
     width: 500px;
     height: 120px;
@@ -17,13 +18,27 @@ body{
     text-align: center;
 }
 
-
 #innerBox{
-    border: 1px solid black;
     background-color: yellow;
     width: 200px;
-    height: 40px;
-   text-align: center;
-   margin-top: 30px;
-   margin-left: 150px;
+    height: 20px;
+    padding: 10px;
+    margin-top: -90px;
+    margin-left: 140px;
+}
+
+#boxShowingDate{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    height: 20px;  
+    margin-top: 70px; 
+    margin-left: 40px;
+}
+
+#crossBtn{
+    margin-left: 233px;
+    padding: 3px;
+    margin-top: -62px;
+    position: fixed;
 }
